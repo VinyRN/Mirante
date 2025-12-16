@@ -1,0 +1,11 @@
+F:\Mirate\ToDo\src\Mirante.ToDo.Helper\bin\Debug\net8.0\Mirante.ToDo.Helper.deps.json
+F:\Mirate\ToDo\src\Mirante.ToDo.Helper\bin\Debug\net8.0\Mirante.ToDo.Helper.dll
+F:\Mirate\ToDo\src\Mirante.ToDo.Helper\bin\Debug\net8.0\Mirante.ToDo.Helper.pdb
+F:\Mirate\ToDo\src\Mirante.ToDo.Helper\obj\Debug\net8.0\Mirante.ToDo.Helper.GeneratedMSBuildEditorConfig.editorconfig
+F:\Mirate\ToDo\src\Mirante.ToDo.Helper\obj\Debug\net8.0\Mirante.ToDo.Helper.AssemblyInfoInputs.cache
+F:\Mirate\ToDo\src\Mirante.ToDo.Helper\obj\Debug\net8.0\Mirante.ToDo.Helper.AssemblyInfo.cs
+F:\Mirate\ToDo\src\Mirante.ToDo.Helper\obj\Debug\net8.0\Mirante.ToDo.Helper.csproj.CoreCompileInputs.cache
+F:\Mirate\ToDo\src\Mirante.ToDo.Helper\obj\Debug\net8.0\Mirante.ToDo.Helper.dll
+F:\Mirate\ToDo\src\Mirante.ToDo.Helper\obj\Debug\net8.0\refint\Mirante.ToDo.Helper.dll
+F:\Mirate\ToDo\src\Mirante.ToDo.Helper\obj\Debug\net8.0\Mirante.ToDo.Helper.pdb
+F:\Mirate\ToDo\src\Mirante.ToDo.Helper\obj\Debug\net8.0\ref\Mirante.ToDo.Helper.dll

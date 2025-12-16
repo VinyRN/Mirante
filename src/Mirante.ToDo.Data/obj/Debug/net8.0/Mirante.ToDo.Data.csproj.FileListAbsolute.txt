@@ -1,0 +1,17 @@
+F:\Mirate\ToDo\src\Mirante.ToDo.Data\obj\Debug\net8.0\Mirante.ToDo.Data.csproj.AssemblyReference.cache
+F:\Mirate\ToDo\src\Mirante.ToDo.Data\obj\Debug\net8.0\Mirante.ToDo.Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\Mirate\ToDo\src\Mirante.ToDo.Data\obj\Debug\net8.0\Mirante.ToDo.Data.AssemblyInfoInputs.cache
+F:\Mirate\ToDo\src\Mirante.ToDo.Data\obj\Debug\net8.0\Mirante.ToDo.Data.AssemblyInfo.cs
+F:\Mirate\ToDo\src\Mirante.ToDo.Data\obj\Debug\net8.0\Mirante.ToDo.Data.csproj.CoreCompileInputs.cache
+F:\Mirate\ToDo\src\Mirante.ToDo.Data\bin\Debug\net8.0\Mirante.ToDo.Data.deps.json
+F:\Mirate\ToDo\src\Mirante.ToDo.Data\bin\Debug\net8.0\Mirante.ToDo.Data.runtimeconfig.json
+F:\Mirate\ToDo\src\Mirante.ToDo.Data\bin\Debug\net8.0\Mirante.ToDo.Data.dll
+F:\Mirate\ToDo\src\Mirante.ToDo.Data\bin\Debug\net8.0\Mirante.ToDo.Data.pdb
+F:\Mirate\ToDo\src\Mirante.ToDo.Data\bin\Debug\net8.0\Mirante.ToDo.Core.dll
+F:\Mirate\ToDo\src\Mirante.ToDo.Data\bin\Debug\net8.0\Mirante.ToDo.Core.pdb
+F:\Mirate\ToDo\src\Mirante.ToDo.Data\obj\Debug\net8.0\Mirante..5CC15F7B.Up2Date
+F:\Mirate\ToDo\src\Mirante.ToDo.Data\obj\Debug\net8.0\Mirante.ToDo.Data.dll
+F:\Mirate\ToDo\src\Mirante.ToDo.Data\obj\Debug\net8.0\refint\Mirante.ToDo.Data.dll
+F:\Mirate\ToDo\src\Mirante.ToDo.Data\obj\Debug\net8.0\Mirante.ToDo.Data.pdb
+F:\Mirate\ToDo\src\Mirante.ToDo.Data\obj\Debug\net8.0\Mirante.ToDo.Data.genruntimeconfig.cache
+F:\Mirate\ToDo\src\Mirante.ToDo.Data\obj\Debug\net8.0\ref\Mirante.ToDo.Data.dll

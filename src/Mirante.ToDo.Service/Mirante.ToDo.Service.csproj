@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	 <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.8" />
+  </ItemGroup>
+	
+  <ItemGroup>
+	<ProjectReference Include="..\Mirante.ToDo.Core\Mirante.ToDo.Core.csproj" />
+	<ProjectReference Include="..\Mirante.ToDo.Data\Mirante.ToDo.Data.csproj" />
+  </ItemGroup>
+	
+</Project>

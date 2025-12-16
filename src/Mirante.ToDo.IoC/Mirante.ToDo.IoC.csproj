@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.8" />
+	  <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="9.0.8" />
+	  <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.8" />
+	  <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="9.0.8" />
+	  <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="9.0.8" />
+	  <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.8" />
+	  <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mirante.ToDo.Adapter\Mirante.ToDo.Adapter.csproj" />
+    <ProjectReference Include="..\Mirante.ToDo.Data\Mirante.ToDo.Data.csproj" />
+    <ProjectReference Include="..\Mirante.ToDo.Service\Mirante.ToDo.Service.csproj" />
+  </ItemGroup>
+
+</Project>

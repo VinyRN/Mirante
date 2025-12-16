@@ -1,0 +1,11 @@
+﻿namespace Mirante.ToDo.Core.Dto
+{
+    public class ReturnResponseDto
+    {
+        public bool Error { get; set; }
+        public int StatusCode { get; set; }
+        public object? Data { get; set; }
+        public List<ReturnResponseErrorDto>? Erros { get; set; } = new List<ReturnResponseErrorDto>();
+
+    }
+}
