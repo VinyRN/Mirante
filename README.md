@@ -1,10 +1,6 @@
-# Mirante
-POC - Sistema de Controle de Task
-
-
 # 📝 ToDo Task API
 
-API RESTful para gerenciamento de tarefas (ToDo), desenvolvida em **.NET 8**, utilizando boas práticas de arquitetura, separação de responsabilidades e padrões amplamente adotados no mercado.
+API RESTful para gerenciamento de tarefas (**ToDo**), desenvolvida em **.NET 8**, seguindo boas práticas de arquitetura, separação de responsabilidades e padrões corporativos amplamente adotados no mercado.
 
 ---
 
@@ -23,9 +19,9 @@ API RESTful para gerenciamento de tarefas (ToDo), desenvolvida em **.NET 8**, ut
 
 ---
 
-## 🏗️ Arquitetura do Projeto
+## 🏗 Arquitetura do Projeto
 
-O projeto segue princípios da **Clean Architecture / Arquitetura Hexagonal**, garantindo baixo acoplamento, alta coesão e facilidade de manutenção.
+O projeto segue os princípios da **Clean Architecture / Arquitetura Hexagonal**, promovendo **baixo acoplamento**, **alta coesão** e **facilidade de manutenção e evolução**.
 
 ### 🔄 Fluxo de Comunicação
 
@@ -36,51 +32,81 @@ Controller → Adapter → Service → Repository → Database
 ## 📁 Estrutura de Camadas
 
 ### Controller (API Layer)
-Responsável por:
-- Receber requisições HTTP
-- Fazer o binding de dados
-- Retornar status HTTP adequados
-- Delegar chamadas ao Adapter
+Responsável por receber requisições HTTP, realizar o binding de dados, retornar os status HTTP adequados e delegar chamadas para o Adapter.
 
 ### Adapter (Application Layer)
-Responsável por:
-- Converter DTOs de entrada e saída usando AutoMapper
-- Orquestrar chamadas para o Service
+Responsável por converter DTOs de entrada e saída utilizando AutoMapper e orquestrar chamadas para a camada Service.
 
 ### Service (Domain / Business Layer)
-Responsável por:
-- Aplicar regras de negócio
-- Executar validações com FluentValidation
-- Registrar logs via ILogger
+Responsável por aplicar regras de negócio, executar validações com FluentValidation e registrar logs via ILogger.
 
 ### Repository (Infrastructure Layer)
-Responsável por:
-- Persistência de dados
-- CRUD e consultas filtradas
-- Comunicação com o banco via EF Core
+Responsável pela persistência de dados, execução de operações CRUD e comunicação com o banco via EF Core.
 
 ### Domain
 Contém as entidades e enums do domínio.
 
 ---
 
-## 🔍 Validações
+## 🗄 Banco de Dados
 
-As regras de validação são implementadas com FluentValidation, garantindo consistência e centralização das regras de negócio.
+A pasta **Mirante.ToDo.DataBase** contém os scripts SQL necessários para criação do banco de dados.
+
+### Scripts disponíveis
+
+- **CREATE_BD.sql**  
+  Cria o banco de dados da aplicação.
+
+- **CREATE_TABLE-ToDoTask.sql**  
+  Cria a tabela `ToDoTask`, responsável por armazenar as tarefas.
+
+Os scripts devem ser executados via **SQL Server Management Studio (SSMS)**.
 
 ---
 
-## 🔄 AutoMapper
+## 🚀 Como rodar o projeto localmente (sem Docker)
 
-Utilizado para converter:
-- DTO → Entidade
-- Entidade → DTO de resposta
+### Pré-requisitos
+
+- .NET SDK 8.0
+- SQL Server (LocalDB, Express ou superior)
+- Git
+
+### Passos
+
+```bash
+git clone https://github.com/VinyRN/Mirante.git
+cd Mirante
+dotnet restore
+dotnet run --project src/Mirante.ToDo.API
+```
+
+A API ficará disponível em:
+
+- https://localhost:5001
+- http://localhost:5000
+
+Swagger:
+
+- https://localhost:5001/swagger
 
 ---
 
-## 🔌 Injeção de Dependência
+## 📦 Padrão de Resposta da API
 
-Todos os serviços, adapters, repositórios e validações são registrados via Dependency Injection.
+```json
+{
+  "error": false,
+  "statusCode": 200,
+  "data": {},
+  "erros": []
+}
+```
+
+- **error**: indica se ocorreu erro
+- **statusCode**: código HTTP retornado
+- **data**: dados da resposta
+- **erros**: lista de mensagens de erro
 
 ---
 
@@ -114,4 +140,10 @@ http://localhost:8080/swagger
 - Separação clara de responsabilidades
 - Código limpo e organizado
 - Fácil manutenção e escalabilidade
-- Testável e extensível
+- Estrutura preparada para evolução futura
+
+---
+
+## 👨‍💻 Autor
+
+Vinicius Ribeiro Nunes
